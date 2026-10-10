@@ -1,0 +1,23 @@
+name: Feil / Bug
+description: Meld fra om noe som ikke virker
+labels: ["feil", "bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Hva skjedde? / What happened?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Enhet og nettleser / Device and browser
+      placeholder: "iPad 9. gen, Safari 18"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versjon / Version
+      description: Står nederst i startmenyen og på «Om spillet»
+      placeholder: "2.1"

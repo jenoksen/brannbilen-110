@@ -1,0 +1,33 @@
+name: Nytt språk / New language
+description: Foreslå eller bidra med en oversettelse
+title: "Oversettelse: "
+labels: ["oversettelse", "translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Takk for at du vil oversette spillet. Du trenger ikke kunne Git — lim inn tekstene her,
+        så legger vi dem inn. Se CONTRIBUTING.md for hele listen over nøkler.
+
+        *Thanks for helping translate. You don't need Git — paste the text here and we'll add it.*
+  - type: input
+    id: language
+    attributes:
+      label: Språk / Language
+      description: Språkets eget navn og ISO 639-1-kode, for eksempel "Deutsch (de)"
+      placeholder: "Deutsch (de)"
+    validations:
+      required: true
+  - type: textarea
+    id: strings
+    attributes:
+      label: Oversettelsen / The translation
+      description: Lim inn språkblokken, eller bare de linjene du har oversatt.
+      render: javascript
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Merknader / Notes
+      description: Er det noe som ikke lot seg oversette godt, eller noe du er usikker på?
