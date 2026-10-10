@@ -5,7 +5,7 @@ Et brannbilspill for barn fra 6 til 10 år. Kjører i nettleseren på mobil, net
 
 *A fire truck game for children aged 6–10, in the browser. One HTML file, no install, no dependencies, no tracking. English below.*
 
-**▶ Spill / Play: https://USERNAME.github.io/brannbilen-110/**
+**▶ Spill / Play: https://jenoksen.github.io/brannbilen-110/**
 
 <!-- Legg gjerne inn et skjermbilde her: docs/skjermbilde.png -->
 
@@ -83,7 +83,7 @@ Last ned `index.html` og åpne den i en nettleser. Det er hele oppskriften.
 Vil du heller kjøre den over HTTP:
 
 ```bash
-git clone https://github.com/USERNAME/brannbilen-110.git
+git clone https://github.com/jenoksen/brannbilen-110.git
 cd brannbilen-110
 python3 -m http.server 8000
 # åpne http://localhost:8000
@@ -171,7 +171,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 Download `index.html` and open it in a browser. That's the whole recipe. Or serve it:
 
 ```bash
-git clone https://github.com/USERNAME/brannbilen-110.git
+git clone https://github.com/jenoksen/brannbilen-110.git
 cd brannbilen-110
 python3 -m http.server 8000
 ```
